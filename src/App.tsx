@@ -1,10 +1,10 @@
-import './App.css'
+import CounterZustand from './components/CounterZustand'
 
 function App() {
 
   return (
-    <div className='App'>
-      <h1>hi</h1>
+    <div>
+      <CounterZustand/>
     </div>
   )
 }
