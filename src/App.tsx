@@ -1,9 +1,12 @@
 import CounterZustand from './components/CounterZustand'
+import "./App.css";
+import CartCount from './components/CartCount';
 
 function App() {
-
   return (
-    <div>
+    
+    <div className='App'>
+      <CartCount/>
       <CounterZustand/>
     </div>
   )
