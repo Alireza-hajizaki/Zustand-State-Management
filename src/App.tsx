@@ -1,10 +1,13 @@
-import './App.css'
+import CounterZustand from './components/CounterZustand'
+import "./App.css";
+import CartCount from './components/CartCount';
 
 function App() {
-
   return (
+    
     <div className='App'>
-      <h1>hi</h1>
+      <CartCount/>
+      <CounterZustand/>
     </div>
   )
 }
